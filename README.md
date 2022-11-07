@@ -1,5 +1,13 @@
 # 備忘録
 
+## Git
+
+1. .gitignore
+    - 反映されないときは```git rm -r --cached .```
+
+1. push
+    - 通らないときVPNとWSLの確認
+
 ## Linux コマンド
 
 1. du -h
@@ -10,6 +18,9 @@
 
 1. fg
     - `jobs`のindexを指定して`ctrl + z`で停止中のものを再開
+
+1. bg
+    - バックグラウンドで再開
 
 ## ネットワーク
 
