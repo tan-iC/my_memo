@@ -22,6 +22,9 @@
 1. bg
     - バックグラウンドで再開
 
+1. rsync
+    - `rsync -ahv -e ssh --progress {src} {dst} --exclude '*.pt' --exclude 'data/'`
+
 ## ネットワーク
 
 1. DNSサーバ
