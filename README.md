@@ -26,8 +26,8 @@
     1. 切れたとき
         1. `id`を`screen -ls`で調べる
         1. `kill {id}`
-        1. `kill`が効かなければscreen外から強制detouch`screen -d {id}`
-        
+        1. `kill`が効かなければscreen外から強制dettach`screen -d {id}`
+
 1. rsync
     - 空回し：`rsync -ahvn -e ssh {src} {dst} --exclude '*.pt' --exclude 'data/'`
     - 実行：`rsync -ahv -e ssh --progress {src} {dst} --exclude '*.pt' --exclude 'data/'`
