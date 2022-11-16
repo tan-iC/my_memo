@@ -4,6 +4,10 @@
 
 1. .gitignore
     - 反映されないときは```git rm -r --cached .```
+    - 一部ディレクトリの無視を回避`!/{$dir_name}`
+
+1. ローカルからリモートの紐づけ
+    - `git remote add origin {$remote_repo}`
 
 1. push
     - 通らないときVPNとWSLの確認
@@ -25,12 +29,12 @@
 1. screen
     1. 切れたとき
         1. `id`を`screen -ls`で調べる
-        1. `kill {id}`
-        1. `kill`が効かなければscreen外から強制dettach`screen -d {id}`
+        1. `kill {$id}`
+        1. `kill`が効かなければscreen外から強制dettach`screen -d {$id}`
 
 1. rsync
-    - 空回し：`rsync -ahvn -e ssh {src} {dst} --exclude '*.pt' --exclude 'data/'`
-    - 実行：`rsync -ahv -e ssh --progress {src} {dst} --exclude '*.pt' --exclude 'data/'`
+    - 空回し：`rsync -ahvn -e ssh {$src} {$dst} --exclude '*.pt' --exclude 'data/'`
+    - 実行：`rsync -ahv -e ssh --progress {$src} {$dst} --exclude '*.pt' --exclude 'data/'`
 
 ## network
 
