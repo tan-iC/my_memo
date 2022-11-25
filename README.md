@@ -1,5 +1,10 @@
 # 備忘録
 
+## Environment
+
+`pip freeze > requirements.txt`
+`pip install -r requirements.txt`
+
 ## Git
 
 1. .gitignore
